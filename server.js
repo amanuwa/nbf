@@ -16,6 +16,6 @@ app.use(routes)
 
 db()
 const port=process.env.port
-app.listen(port,console.log('server running on '+port))
+app.listen(port,console.log('amanuwa is loading '+port))
 
 
