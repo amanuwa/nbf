@@ -5,7 +5,7 @@ const routes= require('./route')
 const bodyparser=require('body-parser');
 const dotenv= require('dotenv')
 dotenv.config()
-
+console.log()
 const app=express()
 app.use(express.json())
 app.use(routes)
@@ -17,5 +17,4 @@ app.use(routes)
 db()
 const port=process.env.port
 app.listen(port,console.log('server running on '+port))
-
 
